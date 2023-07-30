@@ -8,9 +8,5 @@
   ],
   "setupFiles": [
     "./__tests__/mocks/libs/async-storage.js"
-  ],
-  "transform": {
-    "^.+\\.jsx?$": "babel-jest",
-    "^.+\\.svg$": "jest-transformer-svg"
-  }
+  ]
 }

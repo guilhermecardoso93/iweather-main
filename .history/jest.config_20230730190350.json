@@ -6,11 +6,6 @@
   "setupFilesAfterEnv": [
     "@testing-library/jest-native/extend-expect"
   ],
-  "setupFiles": [
-    "./__tests__/mocks/libs/async-storage.js"
-  ],
-  "transform": {
-    "^.+\\.jsx?$": "babel-jest",
-    "^.+\\.svg$": "jest-transformer-svg"
-  }
+  "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
+  "setupFiles": ["./__tests__/mocks/libs/async-storage.js"]
 }
