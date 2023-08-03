@@ -6,7 +6,7 @@ import { api } from "@services/api"
 import { mockWeatherAPIResponse } from "@__tests__/mocks/api/mockWeatherAPIResponse"
 
 describe("Routes", () => {
-  it('should be render Search screen when not city selected', async () => {
+  it('should be render Search screen when not city selecte', async () => {
     render(
       <Routes />
     )
